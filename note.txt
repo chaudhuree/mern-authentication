@@ -1,0 +1,9 @@
+env data for backend:
+
+
+PORT=8000
+DATABASE=mongodb+srv://chaudhuree:chaudhuree@expresstaskmanager.grxys5y.mongodb.net/mernauthentication?retryWrites=true&w=majority
+# DATABASE=mongodb://127.0.0.1:27017/mernauthentication
+JWT_SECRET=secret
+
+follow readme file for more.
