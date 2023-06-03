@@ -2,8 +2,8 @@
 
 # ONLINE DEPLOYED LINKS:
 
-## <a href="https://mernauth-79ad.onrender.com/">SERVER</a>
-## <a href="https://mernauth-79ad.onrender.com/">CLIENT</a>
+## <a href="https://mernauth-79ad.onrender.com">SERVER</a>
+## <a href="https://chaudhuree-mernauthentication.netlify.app">CLIENT</a>
 
 
  # ---------------------------DOCUMENTATION---------------------
