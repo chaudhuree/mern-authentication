@@ -16,7 +16,7 @@ function Address() {
 
     try {
       setLoading(true);
-      const { data } = await axios.put(`http://localhost:8000/api/v1/profile`, {
+      const { data } = await axios.put(`https://mernauth-79ad.onrender.com/api/v1/profile`, {
         address,
       });
       console.log(data);

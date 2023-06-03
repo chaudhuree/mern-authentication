@@ -21,7 +21,7 @@ export default function Register() {
     try {
       setLoading(true);
       const { data } = await axios.post(
-        `http://localhost:8000/api/v1/register`,
+        `https://mernauth-79ad.onrender.com/api/v1/register`,
         {
           name,
           email,

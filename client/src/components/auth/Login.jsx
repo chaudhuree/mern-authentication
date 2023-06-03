@@ -7,8 +7,8 @@ import FullscreenLoader from "../fullscreenloader/fullscreenloader";
 
 export default function Login() {
   // state
-  const [email, setEmail] = useState("chaudhuree@gmail.com");
-  const [password, setPassword] = useState("123456");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   // const [email, setEmail] = useState("");
   // const [password, setPassword] = useState("");
   // context hooks
@@ -21,7 +21,7 @@ export default function Login() {
 
     try {
       setLoading(true);
-      const { data } = await axios.post(`http://localhost:8000/api/v1/login`, {
+      const { data } = await axios.post(`https://mernauth-79ad.onrender.com/api/v1/login`, {
         email,
         password,
       });

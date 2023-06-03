@@ -9,7 +9,7 @@ const AuthProvider = ({ children }) => {
     token: "",
   })
   // axios config
-  axios.defaults.baseURL = "http://localhost:8000/api/v1";
+  axios.defaults.baseURL = "https://mernauth-79ad.onrender.com/api/v1";
   axios.defaults.headers.common["Authorization"] = auth?.token
   // if it is passed as bearer token then below code 
   // axios.defaults.headers.common["Authorization"] = `Bearer ${auth.token}`
