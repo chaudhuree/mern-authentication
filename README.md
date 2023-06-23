@@ -5,6 +5,11 @@
 ## <a href="https://mernauth-79ad.onrender.com">SERVER</a>
 ## <a href="https://chaudhuree-mernauthentication.netlify.app">CLIENT</a>
 
+```
+test user:
+email: chaudhuree@gmail.com
+password: 123456
+```
 
  # ---------------------------DOCUMENTATION---------------------
 
